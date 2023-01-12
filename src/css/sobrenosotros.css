@@ -1,0 +1,104 @@
+/* acordeon seccion */
+.contenedor-acordeon {
+    background-color: var(--color-blanco);
+    
+}
+
+.contenedor-acordeon h1{
+    font-size: var(--tamaño-titulo);
+    text-align: end;
+    padding-right: 8vw;
+    font-weight: bold;
+    
+}
+
+
+.accordion-item .accordion-button {
+    background-color: white;
+    
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+    box-shadow: var(--sombras);
+
+}
+
+
+/* sobre nosotros seccion */
+
+.cont-nosotros{
+    background-color: var(--color-blanco);
+}
+.cont-nosotros h1{
+    font-size: var(--tamaño-titulo);
+    text-align: end;
+    padding-right: 8vw;
+    font-weight: bold;
+    
+}
+
+
+.cont-nosotros p{
+    text-align: justify;
+    font-weight: bold;
+}
+
+.cont-nosotros img{
+    width: 500px;
+    height: 250px;
+    
+}
+
+.nosotros-texto{
+    width: 84%;
+    margin: auto;
+}
+
+
+
+/* ubicacion seccion */
+
+.contenedor-ubicacion{
+    background-color: var(--color-blanco);
+}
+
+
+.contenedor-ubicacion h1{
+    text-align: end;
+    padding-right: 8vw;
+    font-weight: bold;
+    font-size: var(--tamaño-titulo);
+}
+
+@media screen and (max-width: 500px) {
+    .contenedor-ubicacion iframe{
+        
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .contenedor-acordeon h1{
+        font-size: 25px;
+        text-align:center;
+        padding-right: 0vw;
+        
+    }
+    
+
+    .cont-nosotros h1{
+        font-size: 25px;
+        text-align:center;
+        padding-right: 0vw;
+        
+    }
+
+
+    .contenedor-ubicacion h1{
+        font-size: 25px;
+        text-align:center;
+        padding-right: 0vw;
+    }
+}

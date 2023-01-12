@@ -1,0 +1,191 @@
+.img-llantas{
+    width: 100%;
+}
+
+.llantas-texto{
+    border: 3px solid #ffffff;
+    padding: 2% 2% 2% 2%;
+}
+.llantas-texto h1{
+    font-size: var(--tamaño-titulo);
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.llantas-texto p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.llantas-subtexto{
+    padding: 2% 2% 2% 2%;
+}
+
+.llantas-subtexto h1{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: end;
+}
+
+.llantas-subtexto p{
+    color: #ffffff;
+    text-align: end;
+}
+
+
+/* productos seccion */
+.contenedor-productos{
+    background-color: var(--color-blanco);
+}
+
+.contenedor-filtros{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: var(--sombras);
+    height: 900px;
+    min-height: 1150px;
+}
+
+.contenedor-filtros select{
+    width: 20%;
+}
+
+.filtro-texto a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    
+}
+
+.filtro-texto a i{
+    font-size: 35px;
+    padding-left: 40px;
+}
+
+.filtro-texto h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.filtro-texto h2{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.filtro-texto h3{
+    font-size: 50px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+
+.carta-producto{
+    background-color: #ffffff;
+    box-shadow: var(--sombras);
+    border-radius: 8px;
+    width: 94%;
+    margin-left: 1%;
+}
+
+
+.carta-producto hr{
+    border: 2px solid black;    
+}
+
+.carta-producto h1{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.carta-producto p{
+    color: gray;
+    font-weight: bold;
+}
+
+
+.cuadro-p p{
+    padding: 8px 15px 8px 15px;
+    border: 1px solid gray;
+    background-color: var(--color-blanco);
+}
+
+
+.carta-producto a{
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.carta-producto .precio p:nth-child(1){
+    text-decoration: line-through;
+    font-size: 25px;
+
+}
+
+.carta-producto .precio p:nth-child(2){
+    font-size: 45px;
+    color: #000000;
+    
+}
+
+
+.carta-producto .precio p:nth-child(3){
+    font-size: 25px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1280px){
+    .contenedor-filtros select{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .carta-producto{
+        justify-content: center;
+    }
+
+
+    .contenedor-filtros select{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 360px){
+
+    .llantas-texto h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: #ffffff;
+        
+    }
+    
+    .llantas-texto p{
+        color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+    }
+    .llantas-subtexto h1{
+    
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .llantas-subtexto p{
+        color: #ffffff;
+        text-align: center;
+    }
+}

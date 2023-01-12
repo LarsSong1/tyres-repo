@@ -1,0 +1,36 @@
+
+footer {
+    background-color: #262626;
+}
+
+
+.container .row .text-uppercase img {
+    width: 200px;
+    height: 50px;
+}
+
+footer a p{
+    color: white;
+    
+}
+
+footer a p:hover{
+    color: rgb(198, 96, 96);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(198, 96, 96);
+}
+
+@media screen and (max-width: 220px){
+    .container .row .text-uppercase img {
+        width: 100px;
+        height: 20px;
+    }
+    
+}
