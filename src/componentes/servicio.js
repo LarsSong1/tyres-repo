@@ -12,7 +12,7 @@ function Servicio() {
             </div>     
             <div class="texto col-12 col-md-6 col-lg-4">
                 <h4>Calidad en nuestros Productos</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nemo, perferendis amet doloribus dolorem quod quam? Libero eligendi quod culpa eveniet corrupti! Aliquid provident eum neque quibusdam magni at aliquam!</p>
+                <p>Nuestra dedicación a la calidad es innegociable. Creemos que la calidad no es un mero atributo, sino un compromiso constante con la excelencia que se refleja en cada producto que ofrecemos.</p>
                 <div>
                     <i class="bi bi-star-fill"></i>
                     <i class="bi bi-star-fill"></i>
@@ -23,7 +23,7 @@ function Servicio() {
             </div>
             <div class="texto col-12 col-md-6 col-lg-4">
                 <h4>Garantía por Producto</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nemo, perferendis amet doloribus dolorem quod quam? Libero eligendi quod culpa eveniet corrupti! Aliquid provident eum neque quibusdam magni at aliquam!</p>
+                <p>Respaldamos la calidad de nuestros productos con una garantía sólida. Estamos comprometidos a ofrecerte la tranquilidad y la confianza que mereces al elegirnos como tu proveedor de confianza. Nuestra garantía es una promesa de que nuestros productos están diseñados y fabricados para cumplir con tus expectativas.</p>
                 <div>
                     <i class="bi bi-award"></i>
                     <i class="bi bi-award-fill"></i>
@@ -31,7 +31,7 @@ function Servicio() {
             </div>
             <div class="texto col-12 col-md-12 col-lg-4">
                 <h4>Aceptamos varios métodos de pago</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nemo, perferendis amet doloribus dolorem quod quam? Libero eligendi quod culpa eveniet corrupti! Aliquid provident eum neque quibusdam magni at aliquam!</p>
+                <p>Comprendemos que cada cliente tiene preferencias diferentes cuando se trata de cómo pagar sus compras. Por eso, ofrecemos una amplia gama de opciones de pago para que puedas elegir la que mejor se adapte a ti como en Efectivo, tarjeta de debito y credito, Cheques y más</p>
                 <div>
                     <i class="bi bi-credit-card"></i>
                     <i class="bi bi-wallet2"></i>
@@ -40,7 +40,7 @@ function Servicio() {
             <div class="row row-margin">
                 <div class="botones-s d-flex flex-wrap justify-content-center align-items-center">
                     <Link to="/sobrenosotros">Sobre Nosotros</Link>
-                    <a href="https://www.youtube.com/watch?v=lbarxmeGn4E">Envianos un Correo</a>
+                    <a href="mailto:jairgavilanezcell@gmail.com">Envianos un Correo</a>
                 </div>
             </div>
         </div>
