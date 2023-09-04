@@ -12,7 +12,7 @@ function Llantas() {
       <Estructurap
         llanta={llanta1}
         titulo="LLANTAS"
-        descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem asperiores blanditiis, consequuntur ratione sed soluta nobis amet. Alias dolore magnam voluptates cum? Pariatur laudantium maiores saepe non sint culpa. ratione sed soluta nobis amet. Alias dolore magnam voluptates cum? Pariatur laudantium maiores saepe non sint culpa"
+        descripcion="En Tyres&M, entendemos que las llantas son mucho más que simples ruedas. Son la conexión vital entre tu vehículo y el camino, y desempeñan un papel crucial en tu seguridad, rendimiento y comodidad al conducir. Es por eso que ofrecemos una amplia selección de llantas de la más alta calidad para satisfacer todas tus necesidades y preferencias."
         marca="Barum"
         precio="$18"
         distribuidor="Barum"

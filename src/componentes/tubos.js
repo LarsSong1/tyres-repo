@@ -9,7 +9,7 @@ function Tubos() {
     <Estructurap
     llanta={tubo}
     titulo="TUBOS"
-    descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem asperiores blanditiis, consequuntur ratione sed soluta nobis amet. Alias dolore magnam voluptates cum? Pariatur laudantium maiores saepe non sint culpa. ratione sed soluta nobis amet. Alias dolore magnam voluptates cum? Pariatur laudantium maiores saepe non sint culpa"
+    descripcion="En Tyres&M, entendemos que los tubos desempeñan un papel esencial en una amplia variedad de aplicaciones industriales y comerciales. Por eso, ofrecemos una extensa gama de tubos de alta calidad que cumplen con los más altos estándares de durabilidad, resistencia y rendimiento."
     marca="Barum"
     precio="$18"
     distribuidor="Barum"
